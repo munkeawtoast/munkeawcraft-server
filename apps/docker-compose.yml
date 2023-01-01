@@ -1,0 +1,22 @@
+version: '3'
+services:
+  packwiz:
+    image: munkeawtoast/packwiz
+    build:
+      context: .
+      dockerfile: apps/packwiz
+    env_file:
+      - .env
+  mc:
+    image: itzg/minecraft-server:java8
+    volumes:
+      - ./apps/mc:/server-data:rw
+    env_file:
+      - .env
+    environment:
+      EULA: "TRUE"
+      TYPE: FABRIC
+      PACKWIZ_URL: "{https://localhost:233543/pack.toml"
+    ports:
+      - "25565:25565"
+      - "24454:24454"

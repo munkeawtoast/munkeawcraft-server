@@ -1,0 +1,101 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "44747e64b28a91cfc1468e14dbb55ac960b4213a20f59fd4116bf817970c6422"
+metafile = true
+
+[[files]]
+file = "mods/boat-item-view.pw.toml"
+hash = "8f39c1f9a2a5856bc40ccfd3414f8d0e0ec90429dadf4aaf2333790bdcb727cb"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "b019eca1706674644cc8a130b818f827783437943e358e336dfc99f84f1aed01"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "ef60e0ac2a513e2e69a64133439934b53c18924b410b006c388d3f27ba16cfe3"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "b4ac16e8e0113ff8be8ec0de146d94c104bed2cb27b9ffcf1567c460a575b27e"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "b6f8dd724066667c1f859e2b31ab2bfcfdb66bb9df055282f0e57611ff83f6d4"
+metafile = true
+
+[[files]]
+file = "mods/immersiveportals.pw.toml"
+hash = "b18207f9e311f1f8bc2e5aee6adc35f544acb7f1cb8cc24088d985cf0a5fe833"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "998f45a9037fa4663bc5e2bea5de925bf4ce6352328fcaaa830db8466cc62416"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "3bca5a31f4a469ca2c833cab5b87093ce809c2b599d6f93c19f78b69b78828a5"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.pw.toml"
+hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "feaedf6b6d73530c0289d9c7aa4149823343d2a7f9893f7b81e8c7c003763f31"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "5b43c0fc6904ad4480c8ed596411c6e24172f8320ccd63de97b4ce2e7e0f90a5"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "e776fe49fb7af0a6d9d719cb966195c13a818619156cc96c9397d3d48445fa4a"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "4697f8eec2f5a8a6a3aca65ebad0cac1f6c6a29b4c0433e489d98985854731c5"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "5673b738a46a03bc5fc7c1ee6d3b808b25f7a4ef0d24f85ab7c881f943c43a2b"
+metafile = true
+
+[[files]]
+file = "mods/sit-fabric.pw.toml"
+hash = "8b8a86f8e5b9cf8a9d325e4c444c9c482d7b3777163d8589432119d3ec4d657d"
+metafile = true
+
+[[files]]
+file = "mods/smooth-chunk-save.pw.toml"
+hash = "2bb54c46b33693c941cac131db4cfa07c8767d8f583c9f0ef987d7a1c762d303"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "43b0863e9253f01fad40411c5f4f3bf873882bf3bc4a3c4bc9e83f8aa796a9bd"
+metafile = true
+
+[[files]]
+file = "mods/starlight.pw.toml"
+hash = "2aeab4f3b0a720ed02f400d9b521f1858474d4f8f7c3577ce916d5aa31fe37e1"
+metafile = true

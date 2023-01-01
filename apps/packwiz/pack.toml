@@ -1,0 +1,13 @@
+name = "munkeawcraft"
+author = "munkeawtoast"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "fcd7d8ef0e5dc3ad7e6181ac2c12fff043613ec8a60ab1d00f6a9e214a50881c"
+
+[versions]
+fabric = "0.14.12"
+minecraft = "1.19.3"
