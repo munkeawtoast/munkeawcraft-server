@@ -6,8 +6,6 @@ services:
     build:
       context: .
       dockerfile: ./apps/packwiz/Dockerfile
-    volumes:
-      - ./apps/packwiz:/data:rw
     env_file:
       - .env
     ports:
@@ -22,9 +20,11 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: FABRIC
-      PACKWIZ_URL: "localhost:23343/pack.toml"
+      PACKWIZ_URL: "http://packwiz:23343/pack.toml"
     ports:
-      - "25565:25565"
-      - "24454:24454"
+      - 25565:25565
+      - 24454:24454
     depends_on:
+      - packwiz
+    links:
       - packwiz
