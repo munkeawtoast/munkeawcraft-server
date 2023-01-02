@@ -9,4 +9,5 @@ The goal of this repository is to learn more about docker, instead I learned tha
 1. did everything except I forgot to forward the ports(took me 0.5 hour to figure out) 
 2. forwarded the to wrong port (3330 and 3300 looks the same to me) (1 hour)
 3. forgot to add `http://` to server's packwiz installer URL (rookie mistake which took me 4 hours 💀(Edit: it was almost correct there was a typo and the port was 233543, i fixed the port and i also removed the http 💀💀💀))
-4. even more things that i forgor
+4. wrong directory name
+5. even more things that i forgor

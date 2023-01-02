@@ -16,7 +16,7 @@ services:
     container_name: munkeawcraft-server
     image: itzg/minecraft-server:latest
     volumes:
-      - ./apps/mc/munkeawtoast-server-data:/data:rw
+      - ./apps/mc/munkeawcraft-server-data:/data:rw
     env_file:
       - .env
     environment:
