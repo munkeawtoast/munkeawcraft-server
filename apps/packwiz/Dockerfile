@@ -1,3 +1,7 @@
 FROM avionixg/packwiz:latest
 
-CMD [ "packwiz", "-p", "${PACKWIZ_PORT}"]
+WORKDIR /app
+
+COPY ./apps/packwiz .
+
+CMD packwiz serve --port ${PACKWIZ_PORT}
