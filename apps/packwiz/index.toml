@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".gitattributes"
+hash = "73376dbcc71b5eeb1c9ce3b3492cf744b4704f684c23bbdd756def3f0a8741d0"
+
+[[files]]
+file = ".gitignore"
+hash = "0a59c85dba2f1169b3c9486ca512e061a85e2b64ef3e56f79431101792945102"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "ee4620637b0647a478d9540de852e359cd3eb573c3d78746c9d89c7c7bb18fdd"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "44747e64b28a91cfc1468e14dbb55ac960b4213a20f59fd4116bf817970c6422"
 metafile = true
@@ -32,12 +44,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b6f8dd724066667c1f859e2b31ab2bfcfdb66bb9df055282f0e57611ff83f6d4"
+hash = "b2ea21adc33abc0e43c9a5f8c695eba3cd2d9dc6b435f1ae80fbc56a7f863017"
 metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
-hash = "b18207f9e311f1f8bc2e5aee6adc35f544acb7f1cb8cc24088d985cf0a5fe833"
+hash = "0882dbc1d8ea461d084d68031f1429acf1e9ae750e16e81d3ae02fdef5c80b2a"
 metafile = true
 
 [[files]]
