@@ -1,9 +1,9 @@
 FROM avionixg/packwiz:latest
 
-WORKDIR /app
+WORKDIR /
 
 COPY . .
 
-WORKDIR /app/apps/packwiz
+WORKDIR /apps/packwiz
 
 CMD packwiz serve --port ${PACKWIZ_PORT}

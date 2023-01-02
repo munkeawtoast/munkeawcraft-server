@@ -3,6 +3,8 @@ services:
   packwiz:
     container_name: munkeawcraft-packwiz
     image: my-app/packwiz
+    volumes:
+      - ./apps/packwiz:/apps/packwiz:rw
     build:
       context: .
       dockerfile: ./apps/packwiz/Dockerfile
@@ -14,7 +16,7 @@ services:
     container_name: munkeawcraft-server
     image: itzg/minecraft-server:latest
     volumes:
-      - ./apps/mc/server-data:/data:rw
+      - ./apps/mc/munkeawtoast-server-data:/data:rw
     env_file:
       - .env
     environment:
@@ -23,7 +25,7 @@ services:
       PACKWIZ_URL: "http://packwiz:23343/pack.toml"
     ports:
       - 25565:25565
-      - 24454:24454
+      - 3331:3331/udp
     depends_on:
       - packwiz
     links:
