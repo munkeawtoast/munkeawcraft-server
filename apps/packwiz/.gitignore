@@ -1,6 +1,19 @@
-# Exclude exported CurseForge zip files
-*.zip
+# auto-generated files
+.cache/
+.fabric/
+libraries/
+mods/
+versions/
 
-# Exclude exported Modrinth modpacks
-*.mrpack
+# configs comes with packwiz, no need to track
+config/
+server.properties
 
+# exclude .jars
+*.jar
+# but not in children directories
+!*/*.jar
+
+# packwiz
+packwiz.json
+server-icon.*
