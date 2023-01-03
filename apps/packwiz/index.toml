@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".gitattributes"
-hash = "73376dbcc71b5eeb1c9ce3b3492cf744b4704f684c23bbdd756def3f0a8741d0"
-
-[[files]]
-file = ".gitignore"
-hash = "0a59c85dba2f1169b3c9486ca512e061a85e2b64ef3e56f79431101792945102"
-
-[[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "ee4620637b0647a478d9540de852e359cd3eb573c3d78746c9d89c7c7bb18fdd"
 
