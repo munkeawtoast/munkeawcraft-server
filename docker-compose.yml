@@ -19,10 +19,18 @@ services:
       - ./apps/mc/munkeawcraft-server-data:/data:rw
     env_file:
       - .env
+    # https://github.com/itzg/docker-minecraft-server#server-configuration
     environment:
-      EULA: "TRUE"
+      EULA: TRUE
       TYPE: FABRIC
+      MAX_MEMORY: 2G
+      MOTD: "§cmunkeawcraft"
+      DIFFICULTY: easy
+      ICON: "https://github.com/munkeawtoast/munkeawtoast/blob/main/pixelated-mapraw.png?raw=true"
       PACKWIZ_URL: "http://packwiz:23343/pack.toml"
+      ENABLE_QUERY: false
+      SNOOPER_ENABLED: false
+      VIEW_DISTANCE: 10
     ports:
       - 25565:25565
       - 3331:3331/udp
